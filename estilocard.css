@@ -1,0 +1,92 @@
+body {
+    max-width: 1024px;
+    max-height: 768px;
+    background-image: url(https://nene16.github.io/profile-card/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 50% 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin: 184px 0px 0px 512px;
+    border-radius: 30px;
+    box-shadow: 5px 2px 20px 1px rgba(0, 0, 0, 0.6);
+}
+
+.container__header img {
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    height: 142px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+
+.container__imageprof img {
+    border: 5px solid white;
+    margin: -70px 0px 0 115px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.social {
+    float: right;
+    box-sizing: border-box;
+    margin: 54px 95px 4px 83px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.social__media_stats {
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    margin: 155px 15px -100px -16px;
+    text-align: center;
+}
+
+
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+li img {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: -8px;
+}
+
+ul {
+    width: 81px;
+    height: 50px;
+    padding: 9px;
+    margin: -39px 1px 0 27px;
+    margin-right: -18px;
+}
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    padding-inline-start: 0px;
+    padding: 5px;
+}
+
+p {
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+
+}
